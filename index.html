@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="./avatar.png" alt="my photo" class="avatar">
+        <h1 class="header-title">Boris Bolotin | CV</h1>
+        <h2 class="header-subtitle">Frontend Developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list:</summary>
+                <ul>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. JavaScript</li>
+                    <li>4. React</li>
+                    <li>5. TypeScript</li>
+                </ul>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных 
+                живут рыбные тексты. Рукопись свою запятых всемогущая, рекламных 
+                однажды живет от всех, за переписывается, города ведущими агентство 
+                вдали курсивных. Над рукопись текст даже одна запятых путь! 
+                Реторический правилами, над, несколько там маленький, одна они даль 
+                жаренные пунктуация коварных продолжил оксмокс! Семь, ты? Вопроса, сих!
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+            <img src="https://placehold.co/250x250" alt="placehold image">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <iframe src="https://www.youtube.com/embed/mDnWm2XgpNw" 
+            title="25. Frontender[1.0] CV Page. Валидация Страницы HTML, CSS" 
+            allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>My hobbies</h4>
+            <details>
+                <summary>Hobbies list:</summary>
+                <ul>
+                    <li>1. Web development</li>
+                    <li>2. Airsoft</li>
+                    <li>3. Traveling</li>
+                </ul>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <sction class="education">
+            <table class="ed-table">
+                <thead>
+                    <tr>
+                        <th>Educational organization</th>
+                        <th>Years</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>School №580</td>
+                        <td>2013 - 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Saint-Petersburg State University of Economics</td>
+                        <td>2024 - 2028</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Лучше погибнуть героем, чем жить п*******м.
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://ya.ru" method="get" class="form" 
+            target="_blank">
+                <fieldset>
+                    <legend>Required fields</legend>
+                    
+                    <label for="firstName-id">First Name:</label>
+                    <input type="text" name="firstName" id="firstName-id" 
+                    required class="form-control" placeholder="first name">
+
+                    <label for="lastName-id">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName-id" 
+                    required class="form-control" placeholder="last name">
+                 
+                    <label for="email-id">Email:</label>
+                    <input type="email" name="email" id="email-id" 
+                    required class="form-control" placeholder="email">
+                </fieldset>
+
+                <textarea name="questions" class="form-control 
+                control-text" placeholder="your questions"></textarea>
+
+                <button type="submit" class="form-submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <address>
+            <a href="mailto:boris.a.bltn@gmail.com" 
+            class="contacts-link">boris.a.bltn@gmail.com</a>
+            <br><br>
+            <a href="tel:+79006503169" 
+            class="contacts-link">+79006503169</a>
+        </address>
+    </footer>
+</body>
+</html>

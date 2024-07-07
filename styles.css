@@ -1,0 +1,98 @@
+body {
+    background-color: #eff9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+.header-title {
+    font-size: 28px;
+}
+
+.header-subtitle {
+    color: rgb(45, 133, 177);
+}
+
+main {
+    border: 1px solid darkgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.separator {
+    width: 50%;
+    height: 3px;
+    background-color: #a4cdf2;
+}
+
+.video iframe {
+    width: 800px;
+    height: 490px;
+    border: none;
+}
+
+.hobbies ul {
+    list-style: none;
+}
+
+.ed-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ed-table th,
+.ed-table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 32px;
+}
+
+.form {
+    width: 600px;
+    margin: auto;
+}
+
+.form fieldset {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.control-text {
+    margin-bottom: 10px;
+    width: 70%;
+}
+
+.form-submit {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: #dadada;
+    padding: 10px;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: black;
+}
+
